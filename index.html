@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div id="start-screen" class="col-12 col-sm-6 offset-sm-3">
+                    <h1 class="text-uppercase minion-font">Number Guessing Game</h1>
+                    <p class="description">
+                        <span class="minion-font">Just a simple game like its name</span><br>
+                        <b>LET'S PLAY IT!</b>
+                    </p>
+                    <a href="#" class="btn py-2 px-5 btn-primary play-btn"><b>Play</b></a>
+                </div>
+                <div id="process" class="mt-1 col-12 col-sm-8 offset-sm-2 d-none">
+                    <div class="support-box d-flex flex-direction-row justify-content-around">
+                        <h3 id="times" class="minion-font">Guesses Remaining: <b><span class="h3">10</span></b></h3>
+                        <h3 id="mess" class="d-flex flex-direction-row justify-content-around">
+                            <img id="miFace" src="img/face.png" alt="">
+                            <span class="h3"><img class="conv" src="img/play.gif" alt=""></span>
+                        </h3>
+                        <h3 id="countdown"><img src="img/hour-glass.gif" alt=""><span class="h3"></span></h3>
+                    </div>
+                    <div id="number-table" class="col-12"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>

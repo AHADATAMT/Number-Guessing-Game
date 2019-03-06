@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+#process a {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    background: cornflowerblue;
+    color: white;
+    margin-bottom: 4px;
+    border: 4px dashed white;
+    margin-left: 4px;
+}
+
+#process a.x:hover{
+    text-decoration: none;
+    background: #2a549e;
+}
+
+#process a.wrong{
+    background: #a7a7a7;
+    pointer-events: none;
+    cursor: default;
+}
+
+#miFace{
+    width: 140px;
+    height: 150px;
+}
+
+@font-face {
+    font-family: minions;
+    src: url(MODERNA_.TTF);
+}
+*{
+    font-family: 'VT323', sans-serif;
+    font-size: 20px;
+}
+#mess .conv {
+    width: 150px;
+    height: 80px;
+}
+
+
+#countdown img{
+    width: 50px;
+}
